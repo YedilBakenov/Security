@@ -30,9 +30,6 @@ public class Item {
     @Column(name = "price")
     private int price;
 
-    @Column(name = "location")
-    private String location;
-
     private LocalDateTime createdAt;
 
     private LocalDateTime updatedAt;
