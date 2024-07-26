@@ -1,10 +1,12 @@
 package com.example.springSecurityG124.dto;
 
 import lombok.Data;
+import lombok.Getter;
 
 import java.time.LocalDateTime;
 
 @Data
+@Getter
 public class ItemDTO {
 
     private int id;
